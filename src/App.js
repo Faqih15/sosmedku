@@ -1,6 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  AiFillFacebook,
+  AiOutlineInstagram,
+  AiOutlineTwitter,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
+import { RiTelegramLine } from "react-icons/ri";
 
 function App() {
   return (
@@ -20,39 +25,43 @@ function App() {
         <div class="w-full block flex-grow pb-20">
           <div class="text-md">
             <a
-              href="#responsive-header"
-              class="block mt-4 text-white text-bold hover:text-white mr-4 border-2 border-slate-400 rounded-lg p-2 
-              bg-gradient-to-r from-indigo-500 via-purple-500 via-pink-500 to-orange-500 text-bold"
+              href="https://instagram.com/w.madridiista15?igshid=YmMyMTA2M2Y="
+              class="flex items-center block mt-4 mr-4 pl-5 text-white font-semibold hover:text-white border-2 border-slate-400 rounded-lg p-2 
+              bg-gradient-to-r from-blue-600 via-purple-500 via-pink-500 to-orange-500"
             >
+              <AiOutlineInstagram size={25} class="mr-1" />
               My Instagram
             </a>
             <a
-              href="#responsive-header"
-              class="block mt-4 text-white text-bold hover:text-white mr-4 border-2 border-slate-400 rounded-lg p-2 
-              bg-gradient-to-r from-indigo-500 via-purple-500 via-pink-500 to-orange-500 text-bold"
+              href="https://twitter.com/agusghost15?t=iLJIv-GdDJ-cSaEksXf4Pg&s=08"
+              class="flex items-center block mt-4 mr-4 pl-5 text-white font-semibold hover:text-white mr-4 border-2 border-slate-400 rounded-lg p-2 
+              bg-gradient-to-r from-blue-600 via-purple-500 via-pink-500 to-orange-500"
             >
+              <AiOutlineTwitter size={25} class="mr-1" />
               My Twitter
             </a>
             <a
-              href="http://t.me/6285894311115"
-              class="block mt-4 text-white text-bold hover:text-white mr-4 border-2 border-slate-400 rounded-lg p-2 
-              bg-gradient-to-r from-indigo-500 via-purple-500 via-pink-500 to-orange-500 text-bold"
+              href="https://t.me/6285894311115"
+              class="flex items-center block mt-4 mr-4 pl-5 text-white font-semibold hover:text-white mr-4 border-2 border-slate-400 rounded-lg p-2 
+              bg-gradient-to-r from-blue-600 via-purple-500 via-pink-500 to-orange-500"
             >
+              <RiTelegramLine size={25} class="mr-1" />
               My Telegram
             </a>
             <a
               href="http://wa.me/6285894311115"
-              class="block mt-4 text-white text-bold hover:text-white mr-4 border-2 border-slate-400 rounded-lg p-2 
-              bg-gradient-to-r from-indigo-500 via-purple-500 via-pink-500 to-orange-500 text-bold"
+              class="flex items-center block mt-4 mr-4 pl-5 text-white font-semibold hover:text-white mr-4 border-2 border-slate-400 rounded-lg p-2 
+              bg-gradient-to-r from-blue-600 via-purple-500 via-pink-500 to-orange-500"
             >
+              <AiOutlineWhatsApp size={25} class="mr-1" />
               My Whatsapp
             </a>
             <a
               href="https://www.facebook.com/profile.php?id=100087479342235"
-              class="block mt-4 text-white text-bold hover:text-white mr-4 border-2 border-slate-400 rounded-lg p-2 
-              bg-gradient-to-r from-indigo-500 via-purple-500 via-pink-500 to-orange-500 text-bold"
+              class="flex items-center block mt-4 mr-4 pl-5 text-white font-semibold hover:text-white mr-4 border-2 border-slate-400 rounded-lg p-2 
+              bg-gradient-to-r from-blue-600 via-purple-500 via-pink-500 to-orange-500"
             >
-              <FontAwesomeIcon icon="fa-brands fa-facebook" class="" />
+              <AiFillFacebook size={25} class="mr-1" />
               My Facebook
             </a>
           </div>
