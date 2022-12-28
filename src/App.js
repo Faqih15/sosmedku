@@ -22,7 +22,7 @@ function App() {
             Mujahid Faqih 15
           </span>
         </div>
-        <div class="w-full block flex-grow pb-20">
+        <div class="w-full h-screen block flex-grow">
           <div class="text-md">
             <a
               href="https://instagram.com/w.madridiista15?igshid=YmMyMTA2M2Y="
@@ -66,6 +66,7 @@ function App() {
             </a>
           </div>
         </div>
+        <div></div>
       </nav>
     </div>
   );
