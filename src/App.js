@@ -37,7 +37,7 @@ function App() {
         <div className="w-full h-screen block flex-grow">
           <div className="text-md">
             <a
-              href="https://instagram.com/w.madridiista15?igshid=YmMyMTA2M2Y="
+              href="https://www.instagram.com/faqihmujahid32015"
               className="flex items-center block mt-4 mr-4 pl-5 text-white font-semibold hover:text-white border-2 border-slate-400 rounded-lg p-2 
               bg-gradient-to-r from-blue-600 via-purple-500 via-pink-500 to-orange-500"
               onClick={Playit}
