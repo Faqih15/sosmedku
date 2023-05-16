@@ -8,7 +8,7 @@ import {
 import { RiTelegramLine } from "react-icons/ri";
 import ReactAudioPlayer from "react-audio-player";
 import React, { useEffect } from "react";
-
+import Adsense from "./Adsense";
 // const pokemon = require(tuyosound);
 
 function App() {
@@ -34,6 +34,10 @@ function App() {
             Mujahid Faqih 15
           </span>
         </div>
+        <div>
+        <Adsense />
+        </div>
+        
         <div className="w-full h-screen block flex-grow">
           <div className="text-md">
             <a
